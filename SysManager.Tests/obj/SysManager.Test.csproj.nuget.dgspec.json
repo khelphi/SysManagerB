@@ -1,0 +1,174 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Tests\\SysManager.Test.csproj": {}
+  },
+  "projects": {
+    "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Application\\SysManager.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Application\\SysManager.Application.csproj",
+        "projectName": "SysManager.Application",
+        "projectPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Application\\SysManager.Application.csproj",
+        "packagesPath": "C:\\Users\\Denis Fernandes\\.nuget\\packages\\",
+        "outputPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis Fernandes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.dotznext.com/repository/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.35, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[8.2.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.25, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Tests\\SysManager.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Tests\\SysManager.Test.csproj",
+        "projectName": "SysManager.Test",
+        "projectPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Tests\\SysManager.Test.csproj",
+        "packagesPath": "C:\\Users\\Denis Fernandes\\.nuget\\packages\\",
+        "outputPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Denis Fernandes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nexus.dotznext.com/repository/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Application\\SysManager.Application.csproj": {
+                "projectPath": "F:\\Meus Projetos\\Cusros Tecnologia\\BackEnd\\Turma B\\SysManagerB\\SysManager.Application\\SysManager.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
